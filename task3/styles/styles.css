@@ -1,0 +1,58 @@
+html{
+	height: 100%;
+}
+body {
+	margin: 0;
+	height: 100%;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	color: #f8f6f5;
+	text-align: center;
+}
+.top-bar{
+	width:100%; height: 40px;
+	background-color: #68cdd5;
+}
+.top-bar .signal{
+	float: left;
+}
+.site-header{
+	width: 100%; height: 90px;
+	background-color: #22292c;
+}
+.site-header .backward {
+	float:left;
+}
+.site-header .menu-btn{
+	float: right;
+}
+.content{
+	width: 100%; height: 100%;
+	background-color: #68cdd5;
+}
+
+
+
+
+
+
+.disc,.circle{
+	display: inline-block;
+	width: 10px; height: 10px;
+	border-radius: 10px;
+	background-color: #f8f6f5;
+}
+.circle{
+	background-color: transparent;
+	border: 2px solid #f8f6f5;
+}
+.top-bar .disc{
+	border: 2px solid #f8f6f5;
+}
+
+header h1{
+	float: left;
+}
