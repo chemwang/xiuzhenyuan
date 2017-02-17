@@ -54,15 +54,19 @@ body{
 }
 .footer .item1 img{
     width: 70.588%;
-    border-radius: 50%;overflow: hidden;
+    margin-bottom: 10px;
+    /*border-radius: 50%;overflow: hidden;*/
+
 }
 
 .footer .item2{
     float: right;
     width: 50%;
+
     padding: 0 17.5% 0 16.5625%;
     box-sizing: border-box;
 }
 .footer .item2 img{
     width: 82.3529%;
+    margin-bottom: 10px;
 }
