@@ -1,58 +1,53 @@
-html{
-	height: 100%;
+body,p{
+    margin: 0;padding: 0;
 }
-body {
-	margin: 0;
-	height: 100%;
-}
-
-header{
-	position: fixed;
-	width: 100%;
-	color: #f8f6f5;
-	text-align: center;
-}
-.top-bar{
-	width:100%; height: 40px;
-	background-color: #68cdd5;
-}
-.top-bar .signal{
-	float: left;
-}
-.site-header{
-	width: 100%; height: 90px;
-	background-color: #22292c;
-}
-.site-header .backward {
-	float:left;
-}
-.site-header .menu-btn{
-	float: right;
+/*单位百分比，vw都是以浏览器可视窗宽度为基准*/
+body{
+    width: 100%;height: 100%;
+    background: #68cdd5;
 }
 .content{
-	width: 100%; height: 100%;
-	background-color: #68cdd5;
+    width: 100%;
+}
+.backward-icon img{
+    margin-top: 3.125%;margin-left: 5.468%;
+    max-width: 8.4375%;
+}
+.logo{
+    margin-top: 6.5625%;margin-bottom: 17.1875%;
+    text-align: center;
+}
+.logo img{
+    max-width: 28.28125%;
 }
 
-
-
-
-
-
-.disc,.circle{
-	display: inline-block;
-	width: 10px; height: 10px;
-	border-radius: 10px;
-	background-color: #f8f6f5;
+.text{
+    padding: 0 15.625% 0 14.0625%;
+    font: 4.6875vw/1.8 SimHei,STHeiti,"microsoft yahei";
+    color: #eff9fa;
 }
-.circle{
-	background-color: transparent;
-	border: 2px solid #f8f6f5;
+.footer{
+    margin-top: 25.9375%;
+    text-align: center;
+    color: #fff;
+    font: 3.125vw SimHei,STHeiti,"microsoft yahei";
 }
-.top-bar .disc{
-	border: 2px solid #f8f6f5;
+.footer .item1{
+    float: left;
+    width: 50%;
+    padding: 0 12.34375% 0 19.0625%;
+    /*width: 18.59375%;*/
+    box-sizing: border-box;
 }
-
-header h1{
-	float: left;
+.footer .item1 img{
+    max-width: 70.588%;
+}
+.footer .item2{
+    float: right;
+    width: 50%;
+    padding: 0 17.5% 0 16.5625%;
+    box-sizing: border-box;
+}
+.footer .item2 img{
+    max-width: 82.3529%;
 }
