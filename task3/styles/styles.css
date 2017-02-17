@@ -1,7 +1,11 @@
+
 body,p{
     margin: 0;padding: 0;
 }
 /*单位百分比，vw都是以浏览器可视窗宽度为基准*/
+html {
+    font-size: 62.5%;
+}
 body{
     width: 100%;height: 100%;
     background: #68cdd5;
@@ -24,7 +28,7 @@ body{
 
 .text{
     padding: 0 15.625% 0 14.0625%;
-    font: 4.6875vw/1.8 STXihei,SimHei,STHeiti,"microsoft yahei";
+    font: 3em/1.8 STXihei,SimHei,STHeiti,"microsoft yahei";
     color: #fff;
     text-align: justify;
 }
@@ -33,7 +37,7 @@ body{
     overflow: hidden;
     text-align: center;
     color: #fff;
-    font: 3.125vw SimHei,STHeiti,"microsoft yahei";
+    font: 2em SimHei,STHeiti,"microsoft yahei";
 }
 
 .footer .item1{
