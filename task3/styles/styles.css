@@ -15,6 +15,7 @@ body{
 }
 .logo{
     margin-top: 6.5625%;margin-bottom: 17.1875%;
+    width: 100%;
     text-align: center;
 }
 .logo img{
@@ -23,15 +24,18 @@ body{
 
 .text{
     padding: 0 15.625% 0 14.0625%;
-    font: 4.6875vw/1.8 SimHei,STHeiti,"microsoft yahei";
-    color: #eff9fa;
+    font: 4.6875vw/1.8 STXihei,SimHei,STHeiti,"microsoft yahei";
+    color: #fff;
+    text-align: justify;
 }
 .footer{
-    margin-top: 25.9375%;
+    margin-top: 25.9375%;margin-bottom: 10%;
+    overflow: hidden;
     text-align: center;
     color: #fff;
     font: 3.125vw SimHei,STHeiti,"microsoft yahei";
 }
+
 .footer .item1{
     float: left;
     width: 50%;
