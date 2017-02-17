@@ -28,9 +28,14 @@ body{
 
 .text{
     padding: 0 15.625% 0 14.0625%;
-    font: 3em/1.8 STXihei,SimHei,STHeiti,"microsoft yahei";
+    font: 3rem/1.8 STXihei,SimHei,STHeiti,"microsoft yahei";
     color: #fff;
     text-align: justify;
+}
+@media (max-width: 640px){
+    .text{
+        font-size: 4.6875vw;
+    }
 }
 .footer{
     margin-top: 25.9375%;margin-bottom: 10%;
@@ -49,7 +54,9 @@ body{
 }
 .footer .item1 img{
     width: 70.588%;
+    border-radius: 50%;overflow: hidden;
 }
+
 .footer .item2{
     float: right;
     width: 50%;
