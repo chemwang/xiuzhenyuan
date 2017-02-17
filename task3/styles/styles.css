@@ -15,7 +15,7 @@ body{
 }
 .backward-icon img{
     margin-top: 3.125%;margin-left: 5.468%;
-    max-width: 8.4375%;
+    width: 8.4375%;
 }
 .logo{
     margin-top: 6.5625%;margin-bottom: 17.1875%;
@@ -23,7 +23,7 @@ body{
     text-align: center;
 }
 .logo img{
-    max-width: 28.28125%;
+    width: 28.28125%;
 }
 
 .text{
@@ -37,7 +37,7 @@ body{
     overflow: hidden;
     text-align: center;
     color: #fff;
-    font: 2em SimHei,STHeiti,"microsoft yahei";
+    font: 3.75vw SimHei,STHeiti,"microsoft yahei";
 }
 
 .footer .item1{
@@ -48,7 +48,7 @@ body{
     box-sizing: border-box;
 }
 .footer .item1 img{
-    max-width: 70.588%;
+    width: 70.588%;
 }
 .footer .item2{
     float: right;
@@ -57,5 +57,5 @@ body{
     box-sizing: border-box;
 }
 .footer .item2 img{
-    max-width: 82.3529%;
+    width: 82.3529%;
 }
