@@ -1,0 +1,109 @@
+body,p{
+	margin: 0;padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #eff0f4;
+	font: 3.6rem STHeiti,simsun,"microsoft yahei";
+}
+.header{
+	width: 100%;
+	height: 128px;
+	position: fixed;
+	background: #5fc0cd;
+	color: #fff;
+}
+.top{
+	height: 40px;width: 100%;padding-top: 8px;
+	text-align: center;
+}
+
+.top .left{
+	position: absolute;
+	width: 220px;height: 23px;
+	left: 14px;top: 8px;
+	background: url(../images/top_bar.png) no-repeat 0 0;
+}
+.top .center{
+	position: absolute;
+	width: 102px;height: 23px;
+	left: 50%;top: 8px;
+	margin-left: -51px;
+	background: url(../images/top_bar.png) no-repeat -294px 0 ;
+}
+.top .right{
+	position: absolute;
+	width: 126px;height: 23px;
+	right: 15px; top: 8px;
+	background: url(../images/top_bar.png) no-repeat -565px 0;
+}
+.ctrl{
+	line-height: 88px;
+	text-align: center;
+}
+.close,.register{
+	position: absolute;
+	font-size: 3.2rem;
+}
+.login{
+	position: absolute;
+	left: 50%;margin-left: -1em;
+}
+.close{
+	left: 30px;
+}
+.register{
+	right: 30px;
+}
+.main{
+	padding-top: 144px;
+	width：100%;
+
+}
+.item{
+	width: 100%;height: 50px;
+	padding: 24px 0;
+	background: white;
+}
+.item1{
+	margin-bottom: 14px;
+}
+
+label{
+	float: left;
+	height: 52px;width: 15.97%;
+	border-right: 2px solid #eaedee;
+	background: green;
+}
+.item1 label{
+	background: url(../images/icon.png) no-repeat 50% 6px;
+}
+.item2 label{
+	background: url(../images/icon.png) no-repeat 50% -48px;
+}
+
+input{
+	float: left;
+	height: 50px;width: 60%;
+	padding: 1em;
+	border: none;
+	font: 3.2rem STHeiti,simsun;
+	box-sizing: border-box;
+}
+.btn{
+	width: 100%;
+	height: 100px;
+	margin-top: 70px;margin-bottom: 20px;
+	border: none;
+	background: #5fc0cd;
+	font: 3.6rem STHeiti,simsun;
+	color: #f3f4f6;
+}
+.tip{
+	float: right;
+	margin-right: 34px;
+	font: 36px STHeiti;
+	color: #5fc0cd;
+}
