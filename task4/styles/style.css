@@ -10,27 +10,27 @@ body{
 }
 .header{
 	width: 100%;
-	height: 128px;
+	height: 12.8rem;
 	position: fixed;
 	background: #5fc0cd;
 	color: #fff;
 }
 .top{
-	height: 40px;width: 100%;padding-top: 8px;
+	height: 4rem;width: 100%;padding-top: .8rem;
 	text-align: center;
 }
 
 .top .left{
 	position: absolute;
-	width: 220px;height: 23px;
-	left: 14px;top: 8px;
+	width: 22rem;height: 2.3rem;
+	left: 1.4rem;top: .8rem;
 	background: url(../images/top_bar.png) no-repeat 0 0;
 }
 .top .center{
 	position: absolute;
-	width: 102px;height: 23px;
-	left: 50%;top: 8px;
-	margin-left: -51px;
+	width: 10.2rem;height: 2.3rem;
+	left: 50%;top: .8rem;
+	margin-left: -5.1rem;
 	background: url(../images/top_bar.png) no-repeat -294px 0 ;
 }
 .top .right{
@@ -40,7 +40,7 @@ body{
 	background: url(../images/top_bar.png) no-repeat -565px 0;
 }
 .ctrl{
-	line-height: 88px;
+	line-height: 8.8rem;
 	text-align: center;
 }
 .close,.register{
@@ -52,28 +52,28 @@ body{
 	left: 50%;margin-left: -1em;
 }
 .close{
-	left: 30px;
+	left: 3rem;
 }
 .register{
-	right: 30px;
+	right: 3rem;
 }
 .main{
-	padding-top: 144px;
+	padding-top: 14.4rem;
 	width：100%;
 
 }
 .item{
-	width: 100%;height: 50px;
-	padding: 24px 0;
+	width: 100%;height: 5rem;
+	padding: 2.4rem 0;
 	background: white;
 }
 .item1{
-	margin-bottom: 14px;
+	margin-bottom: 1.4rem;
 }
 
 label{
 	float: left;
-	height: 52px;width: 15.97%;
+	height: 5.2rem;width: 15.97%;
 	border-right: 2px solid #eaedee;
 	background: green;
 }
@@ -86,7 +86,7 @@ label{
 
 input{
 	float: left;
-	height: 50px;width: 60%;
+	height: 5rem;width: 60%;
 	padding: 1em;
 	border: none;
 	font: 3.2rem STHeiti,simsun;
@@ -94,8 +94,8 @@ input{
 }
 .btn{
 	width: 100%;
-	height: 100px;
-	margin-top: 70px;margin-bottom: 20px;
+	height: 10rem;
+	margin-top: 7rem;margin-bottom: 2rem;
 	border: none;
 	background: #5fc0cd;
 	font: 3.6rem STHeiti,simsun;
@@ -103,7 +103,7 @@ input{
 }
 .tip{
 	float: right;
-	margin-right: 34px;
-	font: 36px STHeiti;
+	margin-right: 3.4rem;
+	font: 3.6rem STHeiti;
 	color: #5fc0cd;
 }
