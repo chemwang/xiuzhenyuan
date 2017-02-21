@@ -88,13 +88,13 @@ label{
 .item2 label{
 	background: url(../images/pwd.png) no-repeat 50% 50%;
 	background-size: .27rem .4rem;
-	// background-size: contain;
+
 }
 
 input{
 	float: left;
-	height: .5rem;width: 60%;
-	padding: .1em;
+	height: .5rem;width: 80%;
+	text-indent: 1em;
 	border: none;
 	font: .32rem STHeiti,simsun;
 	box-sizing: border-box;
