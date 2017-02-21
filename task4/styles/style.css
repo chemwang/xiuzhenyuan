@@ -2,108 +2,121 @@ body,p{
 	margin: 0;padding: 0;
 }
 html{
-	font-size: 62.5%;
+	webkit-text-size-adjust:none; 
+	font-size: 100px;
 }
 body{
 	background: #eff0f4;
-	font: 3.6rem STHeiti,simsun,"microsoft yahei";
+	font: 0.36rem STHeiti,simsun,"microsoft yahei";
 }
 .header{
 	width: 100%;
-	height: 12.8rem;
+	height: 1.28rem;
 	position: fixed;
 	background: #5fc0cd;
 	color: #fff;
 }
 .top{
-	height: 4rem;width: 100%;padding-top: .8rem;
+	height: .4rem;width: 100%;padding-top: .08rem;
 	text-align: center;
 }
 
 .top .left{
 	position: absolute;
-	width: 22rem;height: 2.3rem;
-	left: 1.4rem;top: .8rem;
-	background: url(../images/top_bar.png) no-repeat 0 0;
+	width: 2.2rem;height: .23rem;
+	left: 0.14rem;top: .08rem;
+	background: url(../images/wifi.png) no-repeat;
+	background-size: 2.2rem .23rem;
 }
 .top .center{
 	position: absolute;
-	width: 10.2rem;height: 2.3rem;
-	left: 50%;top: .8rem;
-	margin-left: -5.1rem;
-	background: url(../images/top_bar.png) no-repeat -294px 0 ;
+	width: 1.02rem;height: .23rem;
+	left: 50%;top: .08rem;
+	margin-left: -.51rem;
+	background: url(../images/time.png) no-repeat;
+	background-size: 1.02rem .23rem;
 }
 .top .right{
 	position: absolute;
-	width: 126px;height: 23px;
-	right: 15px; top: 8px;
-	background: url(../images/top_bar.png) no-repeat -565px 0;
+	width: 1.26rem;height: .23rem;
+	right: .15rem; top: .08rem;
+	background: url(../images/battery.png) no-repeat;
+	background-size: 1.26rem .23rem;
 }
 .ctrl{
-	line-height: 8.8rem;
+	line-height: .88rem;
 	text-align: center;
 }
 .close,.register{
 	position: absolute;
-	font-size: 3.2rem;
+	font-size: .32rem;
 }
 .login{
 	position: absolute;
 	left: 50%;margin-left: -1em;
 }
 .close{
-	left: 3rem;
+	left: .3rem;
 }
 .register{
-	right: 3rem;
+	right: .3rem;
 }
 .main{
-	padding-top: 14.4rem;
+	padding-top: 1.44rem;
 	width：100%;
 
 }
 .item{
-	width: 100%;height: 5rem;
-	padding: 2.4rem 0;
+	width: 100%;height: .5rem;
+	padding: .24rem 0;
 	background: white;
 }
 .item1{
-	margin-bottom: 1.4rem;
+	margin-bottom: .14rem;
 }
 
 label{
 	float: left;
-	height: 5.2rem;width: 15.97%;
+	height: .52rem;width: 15.97%;
 	border-right: 2px solid #eaedee;
 	background: green;
 }
 .item1 label{
-	background: url(../images/icon.png) no-repeat 50% 6px;
+	background: url(../images/phone.png) no-repeat 50% 50%;
+	background-size: .29rem .43rem;
 }
 .item2 label{
-	background: url(../images/icon.png) no-repeat 50% -48px;
+	background: url(../images/pwd.png) no-repeat 50% 50%;
+	background-size: .27rem .4rem;
+	// background-size: contain;
 }
 
 input{
 	float: left;
-	height: 5rem;width: 60%;
-	padding: 1em;
+	height: .5rem;width: 60%;
+	padding: .1em;
 	border: none;
-	font: 3.2rem STHeiti,simsun;
+	font: .32rem STHeiti,simsun;
 	box-sizing: border-box;
 }
 .btn{
 	width: 100%;
-	height: 10rem;
-	margin-top: 7rem;margin-bottom: 2rem;
+	height: 1rem;
+	margin-top: .7rem;margin-bottom: .2rem;
 	border: none;
 	background: #5fc0cd;
-	font: 3.6rem STHeiti,simsun;
+	font: .36rem STHeiti,simsun;
 	color: #f3f4f6;
 }
 .tip{
 	float: right;
-	margin-right: 3.4rem;
-	font: 3.6rem STHeiti;
+	margin-right: .34rem;
+	font: .36rem STHeiti;
 	color: #5fc0cd;
+}
+
+@media (max-width:720px){
+	html{
+		font-size: 13.89vw;
+	}
 }
