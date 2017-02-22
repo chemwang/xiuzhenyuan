@@ -280,12 +280,13 @@ footer{
 }
 .employer{
 	left: 50%;
-	margin-left: -1.44rem;
+	margin-left: -1.38rem;
 	background-color: #55a8b3;
 	color: #fff;
 }
 .carer{
 	left: 50%;
+	margin-left: -.06rem;
 	background-color: #fff;
 	color: #5fc0cd;
 }
@@ -363,26 +364,34 @@ footer{
 .footer{
 
 	height: 1.25rem;
-	
-	/*padding: 0 10%;*/
 	height: 1rem;
 	background: #f8fafb;
 	text-align: center;
-	color: #5fc0cd;
+	
 }
-.footer div{
+.footer .menu-item{
 	display: inline-block;
 	width: 33.3%;
 	vertical-align: middle;
 
 }
-.footer .icon-edit{
+.footer .menu-item a{
+	display:  inline-block;
+	color: #5fc0cd;
+}
+.footer a.menu-item{
 	width: .94rem;height: .94rem;
 	background-color: #5fc0cd;
 	border-radius: 50%;
 	color: #fff;
 	line-height: .94rem;
+	vertical-align: middle;
+	box-sizing: border-box;
 }
 .footer .iconfont{
 	font-size: .5rem;
+	padding-left: .08rem;
+}
+.footer .menu-item .personal{
+	color: #999;
 }
