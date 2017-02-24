@@ -1,0 +1,178 @@
+html{
+	font-size: 100px;
+}
+body{
+	padding-top: .88rem;
+	padding-bottom: 1rem;
+}
+.header{
+	background-color: #5fc0cd;
+	height: .88rem;
+	line-height: .88rem;
+}
+.btn-group-lg > .btn {
+	padding: .1rem .16rem;
+	font-size: .34rem;
+
+}
+.header .btn-default{
+	background-color: #55a8b3;
+	color: #fff;
+	border: none;
+}
+.btn-default:hover, .btn-default:focus,
+ .btn-default.focus, .btn-default:active, 
+ .btn-default.active {
+    color: #5fc0cd;
+    background-color: #fff;
+}
+.icon-map{
+	position: absolute;
+	width: .42rem;height: .44rem;
+	background: url(../images/icon.png) no-repeat 0 0;
+	background-size: 1.5rem 1.5rem;
+	right: .3rem; top: .22rem;
+}
+
+
+
+/*以下是选项设置栏*/
+.options{
+	height: .8rem;	
+	border-bottom: 1px solid #e1e5e7;
+	line-height: .8rem;
+}
+.options .item{
+	background: url(../images/border.png) no-repeat right 0;
+	background-size: contain;
+}
+.options .btn{
+	width: 100%;
+	position: relative;
+	font-size: .28rem;
+	color: #999;
+	border: none;
+	
+}
+.options .btn .caret{
+	position: absolute;
+	right: 0;top: 50%;
+	vertical-align: middle;
+}
+.options .dropdown-menu{
+	width: 100%;
+	text-align: center;
+}
+
+/*以下是列表栏样式*/
+.list-group{
+	font-size: .28rem;
+	color: #999;
+}
+.list-group-item{
+	height: 1.8rem;
+	vertical-align: middle;
+	line-height: 1.8;
+}
+.list-group-item .col-xs-8{
+	text-overflow:ellipsis;
+}
+.icon-calendar{
+	display: inline-block;
+	width: .24rem;height: .24rem;
+	background: url(../images/icon.png) no-repeat -.5rem 0;
+	background-size: 1.5rem 1.5rem;
+}
+.icon-location{
+	display: inline-block;
+	width: .19rem;height: .23rem;
+	background: url(../images/icon.png) no-repeat -1rem 0;
+	background-size: 1.5rem 1.5rem;
+}
+.date{
+	color: #000;
+	font-size: .28rem;
+}
+.pay-box{
+	margin-top: -10px;
+	text-align: center;
+}
+.pay{
+	/*height: 100%;*/
+	line-height: 1.8rem;
+	vertical-align: 0%;
+	color: #e63b0e;
+}
+.icon-more{
+	display: inline-block;
+	width: .2rem;height: .34rem;
+	background: url(../images/icon.png) no-repeat 0 -.5rem;
+	background-size: 1.5rem 1.5rem;
+	vertical-align: middle;
+	margin-left: .2rem;
+}										
+
+
+/*以下为底部样式*/
+.footer{
+	position: fixed;
+	bottom: 0;
+	height: 1rem;width: 100%;
+	font-size: .2rem;
+	background-color: #f8fafb;
+	border-top: 1px solid #e2eaec;
+}
+.home{
+	text-align: right;
+	padding-top: .12rem;
+}
+.personal{
+	text-align: left;
+	padding-top: .12rem;
+}
+.edit{
+	text-align: center;
+	padding-top: .03rem;
+}
+.home a{
+	display: inline-block;
+	width: .46rem;
+	text-align: center;
+	color: #5fc0cd;       
+}
+.personal a{
+	display: inline-block;
+	width: .42rem;
+	text-align: center;
+	color: #999;
+}
+.edit a{
+	display: inline-block;
+	width: .94rem; height: .94rem;
+	border-radius: 50%;
+	background-color: #5fc0cd;
+}
+.icon-home{
+	display: inline-block;
+	width: .46rem; height: .4rem;
+	background: url(../images/icon.png) no-repeat 0 -1rem;
+	background-size: 1.5rem 1.5rem;
+}
+.icon-personal{
+	display: inline-block;
+	width: .42rem; height: .42rem;
+	background: url(../images/icon.png) no-repeat -1rem -1rem;
+	background-size: 1.5rem 1.5rem;
+}
+.icon-edit{
+	display: inline-block;
+	width: .4rem; height: .4rem;
+	margin-top: .24rem;
+	background: url(../images/icon.png) no-repeat -.5rem -1rem;
+	background-size: 1.5rem 1.5rem;
+}
+@media (max-width:720px){
+	html{
+		font-size: 13.889vw;
+	}
+}
