@@ -189,6 +189,15 @@ body{
 #home .header .col-xs-12{
 	padding: 0;
 }
+#home .icon-menu{
+	margin-left: .1rem;
+}
+#home .icon-menu .line{
+	display: block;
+	margin-bottom: .07rem;
+	width: .34rem;height: .04rem;
+	background-color: #fff;
+}
 .main-box{
 	padding: 0 5.468%;
 	margin-top: .26rem;
@@ -202,6 +211,12 @@ body{
 	font-size: .35rem;
 	color: #9a9a9a;
 	line-height: 1.18rem;
+}
+.next-icon{
+	float: right;
+	width: .24rem; height: .4rem;
+	margin-right: .14rem;margin-top: .38rem;
+	background: url(../images/next_icon.png) no-repeat;
 }
 .versions{
 	background-color: #fff;
@@ -248,13 +263,30 @@ body{
 .versions .carousel-indicators .cur{
 	background-color: #69d1e9;
 }
-.next-icon{
 
-}
 .triangle{
 	position: absolute;
 	right: -.2rem; top:46%;
 	width: 0;height: 0;
 	border: .28rem solid transparent;
 	border-left-color: #fbb435;
+}
+
+
+
+
+
+/*结果页*/
+.home-icon{
+	float: left;
+	width: .51rem; height: .42rem;
+	background: url(../images/result_icon.png) no-repeat;
+}
+.info-icon{
+	float: right;
+	width: .51rem; height: .42rem;
+	background: url(../images/result_icon.png) no-repeat 0 -.5rem;
+}
+#result .header{
+	margin-bottom: .09rem;
 }
